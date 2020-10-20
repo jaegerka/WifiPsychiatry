@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body ">
+          <h5 class="card-title">Who We Are</h5>
+          <p class="card-text">We are online psychiatry service. 
+            <br> All our psychiatrists are board certified.  
+            <br><br>We treat anyone in the world between 6 and 65 years old.
+            <br><br>
+            Patients may choose one of two options: audio or video visit.
+            <br><br>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Conditions We Treat</h5>
+          <p class="card-text" *ngFor="let condition of conditions">{{condition.id}}</p>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Electronic Prescriptions</h5>
+            <p class="card-text">We prescribe medications online to your nearest pharmacy. 
+              <br> <br>
+              <strong>Please note:</strong>
+              We do not prescribe controlled substance such as Benzodiazepines (Xanax, Ativan, Klonopin, Diazepam, Tempazepam etc.) or Suboxone or pain killers (Opiates, oxycodone, hydrocodone etc.)</p>
+          </div>
+        </div>
+      </div>
+  </div>

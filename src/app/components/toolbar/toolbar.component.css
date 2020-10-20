@@ -1,0 +1,60 @@
+nav {
+    background-color: #3fa8ee;
+    position: relative;
+}
+
+#appointmentbutton {
+    background-color: rgba(105, 207, 110, 0.952);
+    color: white;
+    font-family: 'Vollkorn SC', serif;
+    /* position: absolute; */
+    /* right: 10px; */
+    border-radius: 10px;
+    padding: 2% 0%;
+}
+
+#clinicianbutton {
+    background-color: rgba(105, 207, 110, 0.952);
+    color: white;
+    font-family: 'Vollkorn SC', serif;
+    /* position: absolute; */
+    /* right: 10px; */
+    border-radius: 10px;
+    padding: 2% 0%;
+    margin-left: 1rem;
+}
+
+#buttons {
+    position: absolute;
+    right: 10px;
+}
+
+.btn {
+    color: white;
+}
+
+
+li {
+    color: white;
+    font-family: 'Vollkorn SC', serif;
+}
+
+#main {
+    color: white;
+}
+
+@media (max-width: 991px) {
+    #buttons {
+        position: relative;
+        text-align: center;
+        margin: auto;
+    }
+    #appointmentbutton {
+        display: block;
+        margin-bottom: 2%;
+    }
+    #clinicianbutton {
+        display: block;
+        margin-left: 0rem;
+    }
+}

@@ -1,0 +1,28 @@
+.card {
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    font-family: 'Vollkorn SC', serif;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #0EBFE9;
+    border-color: #5C9EAD;
+    margin-top: 5%;
+    bottom: 0;
+}
+
+.row {
+    margin: 0% 5% 0% 5%;
+}
+
+p {
+    margin: 0px;
+    font-family: 'Vollkorn', serif;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Vollkorn SC', serif;
+    color: #3fa8ee;
+}

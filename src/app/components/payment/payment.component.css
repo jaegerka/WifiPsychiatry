@@ -1,0 +1,18 @@
+.card {
+    margin: 0% 5% 2.5% 5%;
+    padding: 2.5%;
+    border-radius: 10px;
+}
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Vollkorn SC', serif;
+    color: #3fa8ee;
+}
+
+p {
+    margin: 2.5% 0%;
+    font-family: 'Vollkorn', serif;
+}
